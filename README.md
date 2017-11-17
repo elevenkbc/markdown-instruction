@@ -155,7 +155,9 @@ def fruit_classified(color):
 撰寫LATEX數學方程式，在底下選擇URL Encoded 複製網址，並且依照以下格式
 語法:  
 
-``` ![equation](URL_Endoded 網址貼在這裡)
+``` 
+![equation](URL_Endoded 網址貼在這裡)
+```
  
 效果:  
  

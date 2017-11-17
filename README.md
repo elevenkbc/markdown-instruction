@@ -152,7 +152,8 @@ def fruit_classified(color):
 數學方程式的輸入
 
 進入網站 http://www.codecogs.com/latex/eqneditor.php
-撰寫LATEX數學方程式，在底下選擇URL Encoded 複製網址，並且依照以下格式
+撰寫LATEX數學方程式，在底下選擇URL Encoded 複製網址，並且依照以下格式  
+
 語法:  
 
 ``` 

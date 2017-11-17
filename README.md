@@ -152,7 +152,11 @@ def fruit_classified(color):
 數學方程式的輸入
 
 進入網站 http://www.codecogs.com/latex/eqneditor.php
-撰寫LATEX數學方程式，在底下選擇URL Encoded 複製網址，貼到 Markdown中
+撰寫LATEX數學方程式，在底下選擇URL Encoded 複製網址，並且依照以下格式
+語法:
+``` ![equation](URL_Endoded 網址貼在這裡)
 
-http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cbegin%7Baligned%7D%20%26%20%5Cmin_%7BG%5E%7B-1%7D%2C%20U%7D%20%5CVert%20Y%20-%20%5Cpsi%20U%20%5CVert%20_F%20%5E2%20%5C%5C%20%26%20U%20%3D%20%5Bu_1%2C%20u_2%2C%20...%2C%20u_N%5D%20%5C%5C%20%26%20%5CVert%20u_i%20%5CVert_0%20%5Cleq%20T%20%5Cmbox%7B%20for%20%7D%20i%20%3D%201%2C%202%2C%20...%2C%20N%5C%5C%20%26%20%5Cpsi%20%3D%20G%5E%7B-1%7DA%20%5Cend%7Baligned%7D%5Cright.
+效果:
+![equation](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cbegin%7Baligned%7D%20%26%20%5Cmin_%7BG%5E%7B-1%7D%2C%20U%7D%20%5CVert%20Y%20-%20%5Cpsi%20U%20%5CVert%20_F%20%5E2%20%5C%5C%20%26%20U%20%3D%20%5Bu_1%2C%20u_2%2C%20...%2C%20u_N%5D%20%5C%5C%20%26%20%5CVert%20u_i%20%5CVert_0%20%5Cleq%20T%20%5Cmbox%7B%20for%20%7D%20i%20%3D%201%2C%202%2C%20...%2C%20N%5C%5C%20%26%20%5Cpsi%20%3D%20G%5E%7B-1%7DA%20%5Cend%7Baligned%7D%5Cright.
+)
 

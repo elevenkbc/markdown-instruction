@@ -1,4 +1,4 @@
-**Markdown 簡單語法整理**
+**Markdown 簡單語法整理(by elevenkbc)**
 
 # 1.標題(Header)
 
@@ -34,10 +34,15 @@ Hello，大家好這是一個單行本文
 
 Hello，大家好這是一個單行本文
 
+**程式碼區塊，用\`\`\`與\`\`\`將程式碼包起來，產生程式碼區塊**
+
 語法:
 
-``` 
-​```在開頭加上三個`，接著按下ENTER鍵即可產生一個文字方塊，或者程式碼方塊
+
+```
+​```
+這是一個區塊
+​```
 ```
 
 效果:
@@ -50,7 +55,7 @@ Hello，大家好這是一個單行本文
 
 語法:
 
-``` 
+```
 `這個是指令`
 ```
 
@@ -62,7 +67,7 @@ Hello，大家好這是一個單行本文
 
 語法:
 
-``` 
+```
 *斜體1* _斜體2_  **粗體1** __粗體2__  
 ***協粗體1*** ___協粗體2___
 這是一個~~刪除線~~
@@ -81,7 +86,7 @@ Hello，大家好這是一個單行本文
 
 語法:
 
-``` 
+```
 * 列表1
 * 列表2
 * 列表3
@@ -95,7 +100,7 @@ Hello，大家好這是一個單行本文
 
 語法:
 
-``` 
+```
 + 列表1
 + 列表2
 + 列表3
@@ -125,13 +130,26 @@ Hello，大家好這是一個單行本文
 3. 西
 4. 北
 
-# 4.數學方程式(LATEX)與程式碼
+
+# 4.程式碼與數學方程式(LATEX)
 
 程式碼
-
+程式碼與本文語法塊相同，使用\`\`\`加上您的程式語言名稱，並且結尾用\`\`\`包起來，即可開始撰寫你的程式語言，並且markdown 會將給定語言的 **關鍵字** 上色。
 語法:
+```
+​``` python
+def fruit_classified(color):
+    if color == 'red':
+    	return "這是一顆番茄"
+    elif color == 'yellow':
+    	return "這是一根香蕉"
+    elif color == 'purple':
+    	return "這是一根茄子"
+    else:
+        return "無法分辨"
+​```
+```
 
-程式碼與本文語法塊相同，使用```加上您的程式語言名稱後按下ENTER，即可開始撰寫你的程式語言，並且markdown 會將該語言的 **關鍵字** 上色。
 
 效果:
 
@@ -151,17 +169,12 @@ def fruit_classified(color):
 
 數學方程式的輸入
 
-進入網站 http://www.codecogs.com/latex/eqneditor.php
-撰寫LATEX數學方程式，在底下選擇URL Encoded 複製網址，並且依照以下格式  
-
 語法:  
 
-``` 
-![equation](URL_Endoded 網址貼在這裡)
 ```
- 
-效果:  
- 
-![equation](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cbegin%7Baligned%7D%20%26%20%5Cmin_%7BG%5E%7B-1%7D%2C%20U%7D%20%5CVert%20Y%20-%20%5Cpsi%20U%20%5CVert%20_F%20%5E2%20%5C%5C%20%26%20U%20%3D%20%5Bu_1%2C%20u_2%2C%20...%2C%20u_N%5D%20%5C%5C%20%26%20%5CVert%20u_i%20%5CVert_0%20%5Cleq%20T%20%5Cmbox%7B%20for%20%7D%20i%20%3D%201%2C%202%2C%20...%2C%20N%5C%5C%20%26%20%5Cpsi%20%3D%20G%5E%7B-1%7DA%20%5Cend%7Baligned%7D%5Cright.
-)
+  $$\int_{-\infty}^{\infty }e^{-x^2}dx = \sqrt{\pi}$$
+```
 
+效果:  
+
+$$ \int_{-\infty}^{\infty }e^{-x^2}dx = \sqrt{\pi}$$
